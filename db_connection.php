@@ -3,7 +3,8 @@
         private $server = "127.0.0.1";
         private $user   = "root";
         private $pass   = "";
-        private $db     = "galeria";
+        #FIX BUG DB
+        private $db     = "new_database";
         private $conexion;
 
         public function __construct(){
